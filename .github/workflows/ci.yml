@@ -17,3 +17,6 @@ jobs:
         run: |
           echo "Workflow is running on ${{ runner.os }}"
           echo "more outputs from the CI"
+
+      - name: Just a useless other step for illustration
+        run: echo "pointless echo call"
